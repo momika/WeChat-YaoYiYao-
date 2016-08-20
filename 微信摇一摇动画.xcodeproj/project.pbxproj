@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D09214181D6843EB004B7D2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D09214171D6843EB004B7D2F /* main.m */; };
+		D092141B1D6843EB004B7D2F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D092141A1D6843EB004B7D2F /* AppDelegate.m */; };
+		D092141E1D6843EB004B7D2F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D092141D1D6843EB004B7D2F /* ViewController.m */; };
+		D09214231D6843EB004B7D2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D09214221D6843EB004B7D2F /* Assets.xcassets */; };
+		D09214261D6843EB004B7D2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D09214241D6843EB004B7D2F /* LaunchScreen.storyboard */; };
+		D09214311D6843EB004B7D2F /* _______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D09214301D6843EB004B7D2F /* _______Tests.m */; };
+		D092143C1D6843EB004B7D2F /* _______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D092143B1D6843EB004B7D2F /* _______UITests.m */; };
+		D092144A1D68442D004B7D2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D09214491D68442D004B7D2F /* Main.storyboard */; };
+		D092144C1D684940004B7D2F /* shake_sound_male.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D092144B1D684940004B7D2F /* shake_sound_male.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D092142D1D6843EB004B7D2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D092140B1D6843EB004B7D2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D09214121D6843EB004B7D2F;
+			remoteInfo = "微信摇一摇动画";
+		};
+		D09214381D6843EB004B7D2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D092140B1D6843EB004B7D2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D09214121D6843EB004B7D2F;
+			remoteInfo = "微信摇一摇动画";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D09214131D6843EB004B7D2F /* 微信摇一摇动画.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "微信摇一摇动画.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D09214171D6843EB004B7D2F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D09214191D6843EB004B7D2F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D092141A1D6843EB004B7D2F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D092141C1D6843EB004B7D2F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D092141D1D6843EB004B7D2F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D09214221D6843EB004B7D2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D09214251D6843EB004B7D2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D09214271D6843EB004B7D2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D092142C1D6843EB004B7D2F /* 微信摇一摇动画Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "微信摇一摇动画Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D09214301D6843EB004B7D2F /* _______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______Tests.m"; sourceTree = "<group>"; };
+		D09214321D6843EB004B7D2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D09214371D6843EB004B7D2F /* 微信摇一摇动画UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "微信摇一摇动画UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D092143B1D6843EB004B7D2F /* _______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______UITests.m"; sourceTree = "<group>"; };
+		D092143D1D6843EB004B7D2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D09214491D68442D004B7D2F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		D092144B1D684940004B7D2F /* shake_sound_male.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = shake_sound_male.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D09214101D6843EB004B7D2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D09214291D6843EB004B7D2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D09214341D6843EB004B7D2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D092140A1D6843EB004B7D2F = {
+			isa = PBXGroup;
+			children = (
+				D09214151D6843EB004B7D2F /* 微信摇一摇动画 */,
+				D092142F1D6843EB004B7D2F /* 微信摇一摇动画Tests */,
+				D092143A1D6843EB004B7D2F /* 微信摇一摇动画UITests */,
+				D09214141D6843EB004B7D2F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D09214141D6843EB004B7D2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D09214131D6843EB004B7D2F /* 微信摇一摇动画.app */,
+				D092142C1D6843EB004B7D2F /* 微信摇一摇动画Tests.xctest */,
+				D09214371D6843EB004B7D2F /* 微信摇一摇动画UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D09214151D6843EB004B7D2F /* 微信摇一摇动画 */ = {
+			isa = PBXGroup;
+			children = (
+				D09214191D6843EB004B7D2F /* AppDelegate.h */,
+				D092141A1D6843EB004B7D2F /* AppDelegate.m */,
+				D092141C1D6843EB004B7D2F /* ViewController.h */,
+				D092141D1D6843EB004B7D2F /* ViewController.m */,
+				D09214491D68442D004B7D2F /* Main.storyboard */,
+				D09214221D6843EB004B7D2F /* Assets.xcassets */,
+				D09214241D6843EB004B7D2F /* LaunchScreen.storyboard */,
+				D09214271D6843EB004B7D2F /* Info.plist */,
+				D092144B1D684940004B7D2F /* shake_sound_male.mp3 */,
+				D09214161D6843EB004B7D2F /* Supporting Files */,
+			);
+			path = "微信摇一摇动画";
+			sourceTree = "<group>";
+		};
+		D09214161D6843EB004B7D2F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D09214171D6843EB004B7D2F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D092142F1D6843EB004B7D2F /* 微信摇一摇动画Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D09214301D6843EB004B7D2F /* _______Tests.m */,
+				D09214321D6843EB004B7D2F /* Info.plist */,
+			);
+			path = "微信摇一摇动画Tests";
+			sourceTree = "<group>";
+		};
+		D092143A1D6843EB004B7D2F /* 微信摇一摇动画UITests */ = {
+			isa = PBXGroup;
+			children = (
+				D092143B1D6843EB004B7D2F /* _______UITests.m */,
+				D092143D1D6843EB004B7D2F /* Info.plist */,
+			);
+			path = "微信摇一摇动画UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D09214121D6843EB004B7D2F /* 微信摇一摇动画 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D09214401D6843EB004B7D2F /* Build configuration list for PBXNativeTarget "微信摇一摇动画" */;
+			buildPhases = (
+				D092140F1D6843EB004B7D2F /* Sources */,
+				D09214101D6843EB004B7D2F /* Frameworks */,
+				D09214111D6843EB004B7D2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "微信摇一摇动画";
+			productName = "微信摇一摇动画";
+			productReference = D09214131D6843EB004B7D2F /* 微信摇一摇动画.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D092142B1D6843EB004B7D2F /* 微信摇一摇动画Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D09214431D6843EB004B7D2F /* Build configuration list for PBXNativeTarget "微信摇一摇动画Tests" */;
+			buildPhases = (
+				D09214281D6843EB004B7D2F /* Sources */,
+				D09214291D6843EB004B7D2F /* Frameworks */,
+				D092142A1D6843EB004B7D2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D092142E1D6843EB004B7D2F /* PBXTargetDependency */,
+			);
+			name = "微信摇一摇动画Tests";
+			productName = "微信摇一摇动画Tests";
+			productReference = D092142C1D6843EB004B7D2F /* 微信摇一摇动画Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D09214361D6843EB004B7D2F /* 微信摇一摇动画UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D09214461D6843EB004B7D2F /* Build configuration list for PBXNativeTarget "微信摇一摇动画UITests" */;
+			buildPhases = (
+				D09214331D6843EB004B7D2F /* Sources */,
+				D09214341D6843EB004B7D2F /* Frameworks */,
+				D09214351D6843EB004B7D2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D09214391D6843EB004B7D2F /* PBXTargetDependency */,
+			);
+			name = "微信摇一摇动画UITests";
+			productName = "微信摇一摇动画UITests";
+			productReference = D09214371D6843EB004B7D2F /* 微信摇一摇动画UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D092140B1D6843EB004B7D2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = MacPro;
+				TargetAttributes = {
+					D09214121D6843EB004B7D2F = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = X44W6UZKV5;
+					};
+					D092142B1D6843EB004B7D2F = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = D09214121D6843EB004B7D2F;
+					};
+					D09214361D6843EB004B7D2F = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = D09214121D6843EB004B7D2F;
+					};
+				};
+			};
+			buildConfigurationList = D092140E1D6843EB004B7D2F /* Build configuration list for PBXProject "微信摇一摇动画" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D092140A1D6843EB004B7D2F;
+			productRefGroup = D09214141D6843EB004B7D2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D09214121D6843EB004B7D2F /* 微信摇一摇动画 */,
+				D092142B1D6843EB004B7D2F /* 微信摇一摇动画Tests */,
+				D09214361D6843EB004B7D2F /* 微信摇一摇动画UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D09214111D6843EB004B7D2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D092144C1D684940004B7D2F /* shake_sound_male.mp3 in Resources */,
+				D092144A1D68442D004B7D2F /* Main.storyboard in Resources */,
+				D09214261D6843EB004B7D2F /* LaunchScreen.storyboard in Resources */,
+				D09214231D6843EB004B7D2F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D092142A1D6843EB004B7D2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D09214351D6843EB004B7D2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D092140F1D6843EB004B7D2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D092141E1D6843EB004B7D2F /* ViewController.m in Sources */,
+				D092141B1D6843EB004B7D2F /* AppDelegate.m in Sources */,
+				D09214181D6843EB004B7D2F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D09214281D6843EB004B7D2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D09214311D6843EB004B7D2F /* _______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D09214331D6843EB004B7D2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D092143C1D6843EB004B7D2F /* _______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D092142E1D6843EB004B7D2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D09214121D6843EB004B7D2F /* 微信摇一摇动画 */;
+			targetProxy = D092142D1D6843EB004B7D2F /* PBXContainerItemProxy */;
+		};
+		D09214391D6843EB004B7D2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D09214121D6843EB004B7D2F /* 微信摇一摇动画 */;
+			targetProxy = D09214381D6843EB004B7D2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D09214241D6843EB004B7D2F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D09214251D6843EB004B7D2F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D092143E1D6843EB004B7D2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D092143F1D6843EB004B7D2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D09214411D6843EB004B7D2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "微信摇一摇动画/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JingZhuan.com.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		D09214421D6843EB004B7D2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "微信摇一摇动画/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JingZhuan.com.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		D09214441D6843EB004B7D2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "微信摇一摇动画Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JingZhuan.com.-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/微信摇一摇动画.app/微信摇一摇动画";
+			};
+			name = Debug;
+		};
+		D09214451D6843EB004B7D2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "微信摇一摇动画Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JingZhuan.com.-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/微信摇一摇动画.app/微信摇一摇动画";
+			};
+			name = Release;
+		};
+		D09214471D6843EB004B7D2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "微信摇一摇动画UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JingZhuan.com.-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "微信摇一摇动画";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D09214481D6843EB004B7D2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "微信摇一摇动画UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JingZhuan.com.-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "微信摇一摇动画";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D092140E1D6843EB004B7D2F /* Build configuration list for PBXProject "微信摇一摇动画" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D092143E1D6843EB004B7D2F /* Debug */,
+				D092143F1D6843EB004B7D2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D09214401D6843EB004B7D2F /* Build configuration list for PBXNativeTarget "微信摇一摇动画" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D09214411D6843EB004B7D2F /* Debug */,
+				D09214421D6843EB004B7D2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D09214431D6843EB004B7D2F /* Build configuration list for PBXNativeTarget "微信摇一摇动画Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D09214441D6843EB004B7D2F /* Debug */,
+				D09214451D6843EB004B7D2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D09214461D6843EB004B7D2F /* Build configuration list for PBXNativeTarget "微信摇一摇动画UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D09214471D6843EB004B7D2F /* Debug */,
+				D09214481D6843EB004B7D2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D092140B1D6843EB004B7D2F /* Project object */;
+}
